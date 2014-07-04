@@ -1,20 +1,17 @@
-# Documentación 
+# StackVDI
 
-En este repositorio se encuentra toda la documentación y software realizados en el proyecto de innovación __OpenMurVDI: despliegue de una infraestructura de clientes ligeros orientados a Cloud-Computing__, en el IES Ingeniero de la Cierva durante el curso 2013-2014.
+__Open Source Virtual Desktop Infrastructure made Easy__
 
-Este proyecto, finalizado en mayo de 2014, implementa una infraestructura de virtualización de escritorios, para utilizar con clientes ligeros (Thin Clients, Raspberry Pi, PCs reutilizados), basada en OpenStack y componentes abiertos y libres.
+StackVDI is mainly based in Ruby on Rails. It connects virtual machines running in OpenStack clouds with the user via web browser.
 
-Para su mayor difusión y reutilización se libera:
 
-+ toda la documentación bajo licencias Creative Commons.
-+ todo el software bajo licencia libre GPL.
+## Web Access
 
-Aquí se puede encontrar todas las producciones del proyecto inicial. 
+Connect to your desktop infrastructure using your web browser. Manage images, running machines, quotas and more all in your browser client. You will be able to connect to your desktop using Windows, Linux or Mac Os X.
 
-Proyecto cofinanciado:
+##Cloud Computing
 
-![Proyecto financiado por](logo.png)
+StackVDI use OpenStack as Cloud Server. You can use your own private Cloud or a public one. Even there is the possibility of using several Clouds in the same broker, so you can launch desktops in different environments.
 
-Pero, debido al gran interés suscitado al finalizar el proyecto y para mantener vivos los trabajos realizados, se plantea una línea de continuidad para crear nuevas versiones, modificaciones y documentaciones posteriores. Todas las producciones que se pudieran realizar con posterioridad se podrán encontrar también de forma libre en https://github.com/StackVDI
 
-__This project has been discontinued, please go to the new repo https://github.com/StackVDI or http://www.stackvdi.com__
+
